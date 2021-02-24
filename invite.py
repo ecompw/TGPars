@@ -100,7 +100,7 @@ print('before for')
 for user in users:
     n += 1
     if 1 == 1:
-	    time.sleep(1)
+	    time.sleep(3)
 	    try:
 	        print ("Adding {}".format(user['id']))
 	        if mode == 1:
